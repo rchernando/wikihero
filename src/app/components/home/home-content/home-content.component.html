@@ -1,0 +1,15 @@
+<div id="home-content-component" class="max-w-[80em] m-auto">
+    <div id="home-input">
+        <app-home-filter (inputEvent)="changeInput($event)"></app-home-filter>
+    </div>
+    <div
+        id="home-table">
+        <app-home-table
+            [heroes]="heroes"
+            [totalItems]="totalItems"
+            [pageSize]="pageSize"
+            [pageIndex]="pageIndex"
+            (pageEvent)="changePage($event)">
+        </app-home-table>
+    </div>
+</div>

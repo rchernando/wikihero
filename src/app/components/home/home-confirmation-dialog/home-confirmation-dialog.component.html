@@ -1,0 +1,12 @@
+<div id="home-confirmation-component">
+  <h1 mat-dialog-title>¿Estas seguro de que quieres eliminar este heroe?</h1>
+
+  <div mat-dialog-actions align="end">
+    <button mat-stroked-button mat-button (click)="closeDialog()">
+      Cancelar
+    </button>
+    <button mat-stroked-button mat-button color="warn" (click)="deleteHero()">
+      Eliminar
+    </button>
+  </div>
+</div>

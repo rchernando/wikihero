@@ -1,0 +1,51 @@
+<div id="hero-dialog-component">
+    <h1
+        mat-dialog-title
+        class="text-center font-semibold">
+        {{ mode == "NEW" ? "CREAR HEROE" : "EDITAR HEROE" }}
+    </h1>
+</div>
+<div mat-dialog-content>
+    <form
+        action=""
+        class="flex flex-col"
+        [formGroup]="heroForm">
+        <P>Nombre</P>
+        <mat-form-field
+            appearance="outline"
+            floatLabel="always">
+            <input
+                formControlName="name"
+                matInput
+                placeholder="Introduce el nombre del heroe" 
+                appUpperCase/>
+        </mat-form-field>
+
+        <P>Identidad Secreta</P>
+        <mat-form-field
+            appearance="outline"
+            floatLabel="always">
+            <input
+                formControlName="secret_identity"
+                matInput
+                placeholder="Introduce la identidad secreta del heroe"
+                appUpperCase/>
+        </mat-form-field>
+    </form>
+</div>
+<div
+    mat-dialog-actions
+    align="end">
+    <button
+        mat-stroked-button
+        mat-button
+        (click)="closeDialog()">
+        Cerrar ventana
+    </button>
+    <button
+        mat-stroked-button
+        mat-button
+        (click)="verifyForm()">
+        {{ mode == "NEW" ? "Crear Heroe" : "Editar Heroe" }}
+    </button>
+</div>

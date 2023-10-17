@@ -1,0 +1,64 @@
+{
+  "heroes": [
+    {
+      "name": "Superman",
+      "secret_identity": "Clark Kent",
+      "created": "1696111200000",
+      "id": "38c0a8ef-6a90-4485-b02b-ae00911ecc74"
+    },
+    {
+      "name": "Spider-Man",
+      "secret_identity": "Peter Parker",
+      "created": "1696111200000",
+      "id": "747f9bfe-bae0-42b3-95ae-8506162164f0"
+    },
+    {
+      "id": "28c06ab6-ac6a-4d5d-a294-82c24cc08e23",
+      "name": "Wonder Woman",
+      "secret_identity": "Diana Prince",
+      "created": "1696111200000"
+    },
+    {
+      "name": "Batman",
+      "secret_identity": "Bruce Wayne",
+      "created": "1696111200000",
+      "id": "9b7b037b-9bca-4e11-a0c3-dc15bdc10713"
+    },
+    {
+      "name": "The Flash",
+      "secret_identity": "Barry Allen",
+      "created": "1696111200000",
+      "id": "d61a8a0b-77ed-4b09-8d61-3bf97b62e0a3"
+    },
+    {
+      "name": "Green Lantern",
+      "secret_identity": "Hal Jordan",
+      "created": "1696111200000",
+      "id": "d16a8297-6f3c-4d62-9fe5-55b14403a826"
+    },
+    {
+      "name": "Wonder Woman",
+      "secret_identity": "Diana Prince",
+      "created": "1696111200000",
+      "id": "7eaeddea-5c6f-4cb3-8b0a-67ff15b3d0f7"
+    },
+    {
+      "name": "Aquaman",
+      "secret_identity": "Arthur Curry",
+      "created": "1696111200000",
+      "id": "e4a41b2e-b202-4e31-93b4-8c7b84e9d8ac"
+    },
+    {
+      "name": "Black Widow",
+      "secret_identity": "Natasha Romanoff",
+      "created": "1696111200000",
+      "id": "bfdd62c7-3ea3-4bc2-8b49-5f3ed32b64d7"
+    },
+    {
+      "id": "3a9b431a-df5b-4a1c-8cb9-15b47f222399",
+      "name": "Iron Man",
+      "secret_identity": "Tony Stark",
+      "created": "1696111200000"
+    }
+  ]
+}

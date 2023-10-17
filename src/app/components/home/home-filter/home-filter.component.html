@@ -1,0 +1,16 @@
+<div
+id="home-filter-component"
+class="flex gap-2 justify-around items-center">
+<mat-form-field appearance="outline">
+    <input
+        matInput
+        (keyup)="applyFilter($event)"
+        placeholder="Buscar un superheroe" />
+</mat-form-field>
+<button
+    class="mb-5"
+    mat-stroked-button
+    (click)="openDialog()">
+    Crear nuevo heroe
+</button>
+</div>
