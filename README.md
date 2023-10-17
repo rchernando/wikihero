@@ -1,6 +1,8 @@
-# Nombre de tu Proyecto
+# WikiHero
 
-Breve descripción de tu proyecto.
+Buscador de superhéroes. 
+Aplicación realizada con Angular 16.2, usando Angular Material y Tailwindcss. 
+Se usa json-server para simular el back
 
 ## Requisitos Previos
 
